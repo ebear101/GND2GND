@@ -26,5 +26,16 @@
 - Calculates the day of the week based on date
 
 # Files
+## Functions and descriptions:
+- audioDistance _In progress... prints the appropriate file for a given distance rounded to 5 feet_
+- closestRoom _Function to determine the closest room from a given set of coordinates_
+- getClassPeriod _Given the time/date, determines the current class period according to schedule_
+- getDayOfWeek _Determine the day of the week based on the date_
+- getNextPeriod _Determines the next class period by adding a full period length (1:15) to the time_
+- haversine _Calculates distance between two GPS coordinates using Haversine formula which accounts for the urviture of the Earth which affects longitude._
+- inSchool _Determines whether a given set of coordinates is within the bounds of the school_
+- wing _Determines the wing (section of school) that the device is in based on coordinate input_
+
+
 
 
