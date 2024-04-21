@@ -57,3 +57,4 @@ In addition to the NMEA sentences, the spreadsheet contains the time it took for
 - All audio files used in the device have been uploaded into the folder "Audio"
 - An Audacity project (.aup) has been added to view annotations on audio and explore sound data
 - Files are meant to be used by a future function to interpret date and time
+- Audio should be uploaded in the order listed, as it will be read and parsed by the DFPlayer in that particular order
