@@ -26,7 +26,7 @@
 - Calculates the day of the week based on date
 
 # Files
-## Functions and descriptions:
+## CompleteCode Functions
 - audioDistance _In progress... prints the appropriate file for a given distance rounded to 5 feet_
 - closestRoom _Function to determine the closest room from a given set of coordinates_
 - getClassPeriod _Given the time/date, determines the current class period according to schedule_
@@ -36,6 +36,23 @@
 - inSchool _Determines whether a given set of coordinates is within the bounds of the school_
 - wing _Determines the wing (section of school) that the device is in based on coordinate input_
 
+## TestingData Explanation
+This folder contains the raw data acquired from testing the capabilities of the GPS device.
 
+NMEA_DATA contains all NMEA sentences from a jaunt on the road. 
+We calculated and interpreted the data accordingly to conclude that the data was accurate to the correct side of the road 88% of the time. 
+Coordinates toward the end are 100% precise, though on the incorrect side of the road. 
+On a typical 12 ft lane road, the GPS can adequately determine the proper side and is thus effectively 88% precise to 12 feet.
+In addition to the NMEA sentences, the spreadsheet contains the time it took for the GPS to properly output the date, time, and coordinates.
+
+PrecisionData lists 29 tests of the GPS device with 5-7 coordinates taken each time.
+Coordinates were taken and compared to a known location.
+The average precision for the 29 trials was calculated to be 3.35 meters or 11.0 feet.
+
+RoomAndCheckpoint_Coordinates lists the coordinates of each of the desired rooms and coordinates
+
+RoomToRoom_withCheckpoints lists the simplistic route from checkpoint to locations
+
+WingCoordinates lists the bounds of each of the wings from the top left to top right
 
 
