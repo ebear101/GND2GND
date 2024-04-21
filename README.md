@@ -45,14 +45,10 @@ Coordinates toward the end are 100% precise, though on the incorrect side of the
 On a typical 12 ft lane road, the GPS can adequately determine the proper side and is thus effectively 88% precise to 12 feet.
 In addition to the NMEA sentences, the spreadsheet contains the time it took for the GPS to properly output the date, time, and coordinates.
 
-PrecisionData lists 29 tests of the GPS device with 5-7 coordinates taken each time.
-Coordinates were taken and compared to a known location.
-The average precision for the 29 trials was calculated to be 3.35 meters or 11.0 feet.
+- PrecisionData lists 29 tests of the GPS device with 5-7 coordinates taken each time. Coordinates were taken and compared to a known location. The average precision for the 29 trials was calculated to be 3.35 meters or 11.0 feet.
 
-RoomAndCheckpoint_Coordinates lists the coordinates of each of the desired rooms and coordinates
+- RoomAndCheckpoint_Coordinates lists the coordinates of each of the desired rooms and coordinates
 
-RoomToRoom_withCheckpoints lists the simplistic route from checkpoint to locations
+- RoomToRoom_withCheckpoints lists the simplistic route from checkpoint to locations
 
-WingCoordinates lists the bounds of each of the wings from the top left to top right
-
-
+- WingCoordinates lists the bounds of each of the wings from the top left to top right
