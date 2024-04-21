@@ -1,4 +1,4 @@
-//calculate distance between two GPS coordinates using Haversine formula which accounts for the urviture of the Earth which affects longitude.
+//calculate distance between two GPS coordinates using Haversine formula which accounts for the curvature of the Earth which affects longitude.
 
 double haversine(double lat1, double lon1, double lat2, double lon2) {
   //radius of the Earth in meters
