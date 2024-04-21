@@ -11,7 +11,7 @@ Adafruit_GPS GPS(&mySerial);
 SoftwareSerial mySoftwareSerial(10, 11); //RX, TX
 DFRobotDFPlayerMini speaker;
 
-//Define checkpoints
+//Define checkpoints (aka turning points)
 float checkpoint[][2] = {
 {39.867059, -75.503591}, //A
 {39.866748, -75.503305}, //B
@@ -20,14 +20,14 @@ float checkpoint[][2] = {
 {39.867016, -75.502925}  //E
 };
 
-// Define the coordinates of the rooms
+// Define the coordinates of the rooms (where classes are held)
 float roomCoordinates[][2] = {
-{39.867353, -75.503725},  // A133
-{39.86642, -75.503156},    // Chorus
-{39.86756, -75.503601},    // A137
-{39.867336, -75.502451},   // C131
-{39.867059, -75.5024},     // Wrestling Gym
-{39.867228, -75.503816}    // A109
+{39.867353, -75.503725},  //A133
+{39.86642, -75.503156},    //Chorus
+{39.86756, -75.503601},    //A137
+{39.867336, -75.502451},   //C131
+{39.867059, -75.5024},     //Wrestling Gym
+{39.867228, -75.503816}    //A109
 };
 
 char c;
@@ -65,12 +65,12 @@ void loop() {
 //speaker.play(3);//for whatever reason, the 2 does not work and it just skips over that index
 
 speaker.play(1);
-/*//Plays 27 files in TF Card
+//Plays 27 files in TF Card
 for (int num = 1; num <= 27; num++) {
     speaker.play(num);
-    delay(8000);//timer; kinda have to know how long the files are
+    delay(8000);//set the timer to 8 seconds (play a new file every 8 seconds)
 }
-*/
+
 
 //Reads GPS
 while (!GPS.newNMEAreceived()) {
