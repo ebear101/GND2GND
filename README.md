@@ -3,11 +3,11 @@
 # Background
   The GPStick is designed to use an [Arduino Uno Rev3](https://store.arduino.cc/products/arduino-uno-rev3) to take input from the [Adafruit Ultimate GPS Breakout](https://www.adafruit.com/product/746) and output GPS directions with a [DFPlayer Mini](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299) and TF Card connected to a 3W 8Ohm speaker. It is all encapsulated into a custom-made laser-cut wooden box to be attached to a walking stick. Read more about the design in the [documentation](https://docs.google.com/document/d/1__1h7gW_0Egsf5SJsRBOKp1m6WEZ-hCyr1FRJ5fe9_U/edit?usp=sharing).
 # Features
-**Audio**
+## Audio
 - Plays the first audio file in the TF Card in DFPlayer
 - Capable of parsing through sound files in TF Card for a given duration for each file\
 \
-**GPS**
+## GPS
 - Prints time in Eastern Time
 - Prints the accurate date
 - Prints whether the satellite receives a fix (receiving adequate location data)
