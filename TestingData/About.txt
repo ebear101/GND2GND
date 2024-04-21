@@ -1,1 +1,0 @@
-This folder contains the raw data acquired from testing the capabilities of the GPS device.

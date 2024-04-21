@@ -1,0 +1,3 @@
+This folder contains the raw data acquired from testing the capabilities of the GPS device.
+
+NMEA_DATA contains all NMEA sentences from a jaunt on the road. We calculated and interpreted the data accordingly to conclude that the data was accurate to the correct side of the road 88% of the time. Coordinates toward the end are 100% precise, though on the incorrect side of the road. On a typical 12 ft lane road, the GPS can adequately determine the proper side and is thus effectively 88% precise to 12 feet.
