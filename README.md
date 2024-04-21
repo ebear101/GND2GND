@@ -6,7 +6,6 @@
 ## Audio
 - Plays the first audio file in the TF Card in DFPlayer
 - Capable of parsing through sound files in TF Card for a given duration for each file\
-\
 ## GPS
 - Prints time in Eastern Time
 - Prints the accurate date
