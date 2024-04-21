@@ -1,3 +1,5 @@
+//ALL CODE IS CONTAINED IN THIS FILE. TO EXPLORE SPECIFIC METHODS, VIEW THE "GND2GND" FOLDER.
+
 #include <Adafruit_GPS.h>
 #include <SoftwareSerial.h>
 #include <math.h>
