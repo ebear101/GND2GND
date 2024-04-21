@@ -5,7 +5,8 @@
 # Features
 **Audio**
 - Plays the first audio file in the TF Card in DFPlayer
-- Capable of parsing through sound files in TF Card for a given duration for each file
+- Capable of parsing through sound files in TF Card for a given duration for each file\
+\
 **GPS**
 - Prints time in Eastern Time
 - Prints the accurate date
@@ -23,3 +24,7 @@
 - Determines the "wing" (section of school) that the device is in
 - Determines the closest room based on coordinate input
 - Calculates the day of the week based on date
+
+# Files
+
+
